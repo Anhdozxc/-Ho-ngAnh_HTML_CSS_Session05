@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="icon"
+      href="https://png.pngtree.com/png-clipart/20220909/original/pngtree-3d-letter-a-logo-design-png-image_8513009.png"
+    />
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        height: 100vh;
+        padding-left: 20px;
+      }
+      .table-container {
+        background: #e0e0e0;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+      }
+      h2 {
+        text-align: center;
+        color: #333;
+        font-weight: bold;
+        text-transform: uppercase;
+      }
+      table {
+        width: 100%;
+        border-collapse: collapse;
+      }
+      th,
+      td {
+        padding: 10px;
+        border: 1px solid #ddd;
+        text-align: center;
+      }
+      th {
+        background-color: #007bff;
+        color: white;
+      }
+      tr:nth-child(odd) {
+        background-color: #e0e0e0;
+      }
+      tr:nth-child(2) {
+        background-color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="table-container">
+      <h2>Admin User Table</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>USERNAME</th>
+            <th>EMAIL</th>
+            <th>ROLE</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>admin01</td>
+            <td>admin01@example.com</td>
+            <td>Administrator</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>user123</td>
+            <td>user123@example.com</td>
+            <td>User</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>moderator56</td>
+            <td>moderator56@example.com</td>
+            <td>Moderator</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>
+</html>
